@@ -212,7 +212,7 @@ progress::-moz-progress-value {
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 500px;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
