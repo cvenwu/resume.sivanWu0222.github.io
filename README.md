@@ -1,2 +1,2 @@
 # resume.sivanWu0222.github.io
-To show my resume in my blog!
+You can look through my resume at <a href="http://resume.sivan0222.cn">resume</a>
