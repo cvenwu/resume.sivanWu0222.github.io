@@ -53,30 +53,6 @@
 						
 					</ul>
 				</div>
-				<div class="contact info-unit">
-					<h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
-					<hr>
-					<ul class="info-list">
-						<li>
-							2018年"创青春"湖南工业大学生创业大赛二等奖
-						</li>
-						<li>
-							2018年全国大学生计算机技能应用大赛高级语言程序设计赛(C语言)三等奖
-						</li>
-						<li>
-							2017-2018学年校级三等奖学金
-						</li>
-						<li>
-							2017年湖南工业大学"商学英才"双星大赛第二名
-						</li>
-						<li>
-							2015-2016学年校级二等奖学金
-						</li>
-						<li>
-							CET4
-						</li>
-					</ul>
-				</div>
 				<div class="skill info-unit ">
 					<h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能评价</span></h2>
 					<hr>
@@ -106,15 +82,38 @@
 							习惯利用github储备知识，并将所学知识记录在博客(sivan.tech)上
 						</li>
 						<br>
+						<li>
+							了解计算机网络中的常用协议，如TCP/IP、HTTP以及HTTPS协议
+						</li>
+						<br>
 					</ul>
 				</div>
-				<div class="skill info-unit">
-					<h2 class="info-header"><i class="iconfont icon-stars"></i> <span class="info-title">自我评价</span></h2>
+				<div class="contact info-unit">
+					<h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
 					<hr>
-					<p>
-						<strong>活泼开朗</strong>，<strong>有团队精神乐于协作</strong>，热爱技术，热爱开源，有良好的编码风格，<strong>对产品的效果有强烈的欲望</strong>，
-					</p>
+					<ul class="info-list">
+						<li>
+							2018年"创青春"湖南工业大学生创业大赛二等奖
+						</li>
+						<li>
+							2018年全国大学生计算机技能应用大赛高级语言程序设计赛(C语言)三等奖
+						</li>
+						<li>
+							2017-2018学年校级三等奖学金
+						</li>
+						<li>
+							2017年湖南工业大学"商学英才"双星大赛第二名
+						</li>
+						<li>
+							2015-2016学年校级二等奖学金
+						</li>
+						<li>
+							CET4
+						</li>
+					</ul>
 				</div>
+				
+				
 			</div>
 			<div class="main">
 				<div class="education info-unit right-list">
@@ -177,26 +176,32 @@
 					<hr>
 					<ul class="experience-list">
 						<li>
-							<h3>Golang从0开始实现的简易web框架</h3>
-							<p>基于Java Swing + MySql的一个ERP管理系统，实现了花盆采购，销售登记，库存管理，货损登记和更新等功能</p>
+							<h3>Go实现的分布式云存储系统</h3>
+							<p>基于Gin + MySql + Redis + RabbitMQ + Docker + Kbuernets的一个分布式文件存储系统，同时使用gitlab + jenkis + harbor进行自动化部署</p>
 							<ul>
-								<li>通过Java Swing完成对页面的布局以及编码，并使用JDBC实现各种事件功能</li>
-								<li><strong>独自设计并完成了项目中用到的分页</strong>，并将开源的日历插件应用到项目中</li>
-								<li>通过<strong>数据库的事务</strong>完成采购登记，销售登记以及货损更新等部分功能</li>
-								<li><strong>完善和修改了Swing中Box(BoxLayout)布局添加控件间的距离，表头内容居中</strong>等Bug</li>
+								<li>实现最基本的文件的上传+下载+最近上传文件查询+文件重命名+文件删除</li>
+								<li>通过docker部署mysql<strong>实现主从复制避免单点故障</strong></li>
+								<li>实现文件的秒传功能</li>
+								<li>通过微服务来完成文件的上传下载，同时<strong>支持断点续传以及秒传的功能</strong></li>
+								<li>通过<strong>RabbitMQ实现了异步存储</strong></li>
+								<li><strong>docker + k8s进行容器部署</strong>同时将文件从私有云(Cephq)迁移到公有云(阿里云OSS)</li>
+								<li><strong>docker + k8s进行容器部署</strong>同时将文件从私有云(Cephq)迁移到公有云(阿里云OSS)</li>
+
 							</ul>
 						</li>
 						<li>
-							<h3>Golang从零实现的分布式缓存</h3>
-							<p>基于LRU算法的分布式缓存，实现了花盆采购，销售登记，库存管理，货损登记和更新等功能</p>
+							<h3>基于Golang的分布式爬虫系统-</h3>
+							<p>使用连接池连接爬虫集群，并且使用ES进行爬虫中的数据存储和展示</p>
 							<ul>
-								<li>通过Java Swing完成对页面的布局以及编码，并使用JDBC实现各种事件功能</li>
-								<li><strong>独自设计并完成了项目中用到的分页</strong>，并将开源的日历插件应用到项目中</li>
-								<li>通过<strong>数据库的事务</strong>完成采购登记，销售登记以及货损更新等部分功能</li>
-								<li><strong>完善和修改了Swing中Box(BoxLayout)布局添加控件间的距离，表头内容居中</strong>等Bug</li>
+								<li>基于docker安装elasticSearch并且使用docker进行部署</li>
+								<li><strong>项目中使用队列调度器解决并发造成的系统循环等待</strong></li>
+								<li><strong>使用jsonRpc进行分布式集群通信</strong></li>
+								<li><strong>序列化解析器</strong>并且整合ItamSaver服务</li>
+																<li><strong>序列化解析器</strong>并且整合ItamSaver服务</li>
+
 							</ul>
 						</li>
-						<li>
+						<!-- <li>
 							<h3>Golang从零实现的ORM框架</h3>
 							<p>基于Java Swing + MySql的一个ERP管理系统，实现了花盆采购，销售登记，库存管理，货损登记和更新等功能</p>
 							<ul>
@@ -205,7 +210,7 @@
 								<li>通过<strong>数据库的事务</strong>完成采购登记，销售登记以及货损更新等部分功能</li>
 								<li><strong>完善和修改了Swing中Box(BoxLayout)布局添加控件间的距离，表头内容居中</strong>等Bug</li>
 							</ul>
-						</li>
+						</li> -->
 						<!-- <li>
 							<h3>鑫美花盆ERP管理系统</h3>
 							<p>基于Java Swing + MySql的一个ERP管理系统，实现了花盆采购，销售登记，库存管理，货损登记和更新等功能</p>
@@ -252,7 +257,13 @@
 						</li> -->
 					</ul>
 				</div>
-				
+				<div class="skill info-unit">
+					<h2 class="info-header"><i class="iconfont icon-stars"></i> <span class="info-title">自我评价</span></h2>
+					<hr>
+					<p>
+						<strong>活泼开朗</strong>，<strong>有团队精神乐于协作</strong>，热爱技术，热爱开源，有良好的编码风格，<strong>对产品的效果有强烈的欲望</strong>，
+					</p>
+				</div>
 			</div>
 		</div>
 	</body>
