@@ -1,6 +1,6 @@
 # resume2.sivanwu0222.github.io
 My published personal resume
-[DEMO](http://www.sivan.tech/resume2/)
+[DEMO](http://resume.yirufeng.top)
 
 要突出自己的贡献，是添加了哪些功能，还是优化了那些性能指数，最后再说说受益怎么样，例如这个功能被多少人使用，例如性能提升了多少倍
 
